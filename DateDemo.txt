@@ -1,0 +1,96 @@
+package com.cts.activity.main;
+
+import java.time.Clock;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.MonthDay;
+import java.time.YearMonth;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
+
+public class DateDemo {
+	public static void main(String args[]) {
+//		/*Date date=new Date();
+//		System.out.println(date);
+//		int day=date.getDay();
+//		switch(day)
+//		{
+//		case 0:System.out.println("Sunday");
+//		break;
+//		case 1:System.out.println("Monday");
+//		break;
+//		case 2:System.out.println("Tue");
+//		break;
+//		case 3:System.out.println("wed");
+//		break;
+//		case 4:System.out.println("thrus");
+//		break;
+//		case 5:System.out.println("Fridsy");
+//		break;
+//		case 6:System.out.println("Sat");
+//		break;*/
+//
+//		//LocalDate date=LocalDate.now();
+//		//System.out.println("date is :"+date);
+//
+////		LocalDate date=LocalDate.now();
+////		int day=date.getDayOfMonth();
+////		int month=date.getMonthValue();
+////		int year=date.getYear();
+////		
+////		System.out.printf("Year : %d , Month : %d , Day : %d \t %n",year,month,day);
+//        //LocalDate date=LocalDate.of(1998, 05, 06);
+//        //System.out.println("Birthday:" +date);
+//       // LocalTime l=LocalTime.now();
+//		//LocalTime t  =l.plusHours(3);
+//		//System.out.println("New time:" +t);
+//		LocalDate t=LocalDate.now();
+//		//LocalDate d=LocalDate.of(1985, 8, 18);
+//		//MonthDay m=MonthDay.of(d.getMonthValue(), d.getDayOfMonth());
+//		//MonthDay a=MonthDay.from(t);
+//		//if(m.equals(a))
+//		//{
+//			//System.out.printf("Today and birthday have same dates %n",t,d);
+//		//}
+//		//else
+//		//{
+//		//	System.out.println("Not same");
+//		//}
+//		//LocalDate n=t.plus(1, ChronoUnit.WEEKS);
+//		//System.out.println("Today's date is :"+t);
+//		//System.out.println("1 week after date is :"+n);
+////		LocalDate today=LocalDate.now();
+////		LocalDate previous=today.minus(1, ChronoUnit.YEARS);
+////		LocalDate next=today.plus(1, ChronoUnit.YEARS);
+////		System.out.println("previous Years' date is :"+previous);
+////		System.out.println("Today's date is :"+today);
+////		System.out.println("1 Year Later date is :"+next);
+////		LocalDate w=LocalDate.of(2021, 1, 14);
+////		if(t.isBefore(w))
+////		{
+////			System.out.println("BEFORE");
+////		}
+////		if(t.isAfter(w))
+////		{
+////			System.out.println("AFTER");
+////		}
+////        YearMonth today=YearMonth.now();
+////		
+////		System.out.printf("The current %s : %d \t %n",today,today.getMonthValue());
+////		
+////		YearMonth cE=YearMonth.of(2025, Month.DECEMBER);
+////		System.out.println("Your Creadit Card Expiry is :"+cE);
+////		LocalDate today=LocalDate.now();
+////		
+////		if(today.isLeapYear())
+////		{
+////			System.out.printf("The Year %s is a Leap Year %n",today);
+////		}
+////		else
+////		{
+////			System.out.printf("The Year %s is not a Leap year %n",today);
+////		}
+////
+	}
+}
