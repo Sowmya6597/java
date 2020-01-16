@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+            <form>
+                <div>
+                    Enter name:
+                    <input name="Enter Name" type="text" requried>
+                   <div>
+                    Date of Bookings:
+                    <input db="Date of bookings" type="date" requried>
+                   <div>
+                    Movies:
+                    <select name="movie">  
+                    <option value="Abc">Abc</option>
+                    <option value="Def">Def</option>
+                    <option value="Efgk">Efgk</option>
+                    </select>
+                    </div>
+                    <div>
+                Show Timings:
+                    <select show="timings">  
+                    <option value="Morning">11:00 am</option>
+                    <option value="Afternoon">3:00pm</option>
+                    <option value="Evening">6:00 pm</option>
+                    </select><br>
+                    </div>
+                Select Class:
+                     <input type="radio" name="gold" value="Gold User"> checked Gold <br>
+                     <input type="radio" name="platinum" value="Platinum User"> Platinum<br>
+                     <input type="radio" name="exclusive" value="Exclusive"> Exclusive <br>
+                     <div>
+                Price:
+                <input type="Price" type="text" disabled>
+                </div>
+                Total Price:
+                <input type="Total Price" type="text" disabled>
+                <div><input type="submit"></div>
+                <div><input type="RESET">
+                <div><button type="button" onclick="alert('ALERT')">Check AGAIN!</button>
+                     
+             </form>
+             
+</body>
+</html>
