@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type type= "text/javascript">
+
+
+        function getdata()
+        {
+            var name=document.getElementById("name").value;
+            var movie=document.getElementById("movie").value;
+            alert("name :"+name+ "\n :" "movie :" +movie);
+        
+        }
+            </script type>
+</head>
+<body>
+            <form>
+                
+                <div>
+                    Enter name:
+                    <input id="name" name="Enter your name" type="text">
+                   <div>
+                    Date of Bookings:
+                    <input db="Date of bookings" type="date" requried>
+                   <div>
+                    Movies:
+                    <input id="movie" name="Enter movie" type="text" >
+                    <option value="Abc">Abc</option>
+                    <option value="Def">Def</option>
+                    <option value="Efgk">Efgk</option>
+                    </input>
+                    </div>
+                    <div>
+                Show Timings:
+                    <select show="timings">  
+                    <option value="Morning">11:00 am</option>
+                    <option value="Afternoon">3:00pm</option>
+                    <option value="Evening">6:00 pm</option>
+                    </select><br>
+                    </div>
+                Select Class:
+                     <input type="radio" name="gold" value="Gold User"> checked Gold <br>
+                     <input type="radio" name="platinum" value="Platinum User"> Platinum<br>
+                     <input type="radio" name="exclusive" value="Exclusive"> Exclusive <br>
+                     <div>
+                Price:
+                <input type="Price" type="text" disabled>
+                </div>
+                Total Price:
+                <input type="Total Price" type="text" disabled>
+            
+                <input type="RESET" onclick="getdata()">
+                
+                     
+             </form>
+             
+</body>
+</html>

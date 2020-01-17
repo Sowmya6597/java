@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: yellow;}
+tr:nth-child(odd) {background-color: green;}
+</style>
+</head>
+<body>
+
+<h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table>
+  <tr>
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Points</th>
+  </tr>
+  <tr>
+  <td>P</td>
+  <td>G</td>
+  <td>100</td>
+  </tr>
+  <tr>
+  <td>L</td>
+  <td>G</td>
+  <td>150</td>
+  </tr>
+  <tr>
+  <td>J</td>
+  <td>S</td>
+  <td>300</td>
+  </tr>
+  <tr>
+  <td>C</td>
+  <td>B</td>
+  <td>250</td>
+  </tr>
+</table>
+
+</body>
+</html>

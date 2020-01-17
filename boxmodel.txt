@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: red;
+  width: 300px;
+  border: 15px solid black;;
+  padding: 50px;
+  margin: 50px;
+}
+</style>
+</head>
+<body>
+
+<h2>Box Model</h2>
+
+<p>All about box model</p>
+
+<div>Welcome to box model</div>
+
+</body>
+</html>
+
