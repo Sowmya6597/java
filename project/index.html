@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>paragraph one</p>
+    <p>paragraph two</p>
+    <div>div one</div>
+    <p>paragraph three</p>
+    <div>div two</div> 
+</body>
+<script>
+    var firstDiv = document.querySelector('div');
+     firstDiv.style.color = 'red';
+     var para = document.querySelector('p');
+     para.style.color = 'yellow';
+     firstDiv.style.fontSize='80px';
+     var para=document.querySelectorAll('p');
+     for(let p of para){
+         p.style.color='pink';
+         p.style.fontSize='50px';
+     }
+
+     
+</script>
+</html>
