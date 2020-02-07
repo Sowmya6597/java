@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+<bean id="customer" class="com.cts.training.model.CustomerEntity">
+ <property name="id" value="101" />
+<property name="name" value="sony" />
+<property name="address" value="123" />
+<property name="phone" value="99128" />
+<property name="accountnumber" value="A652175" /> 
+<property name="bankname" value="SBI"/>
+<bean id="fundtransfer" class="com.cts.training.model.FundTransferEntity">
+<property name="id" value="100" />
+<property name="receivername" value="ajjk" /> 
+<property name="receiveracno" value="739829" />
+<property name="recphone" value="87989" />
+<property name="ramount" value="87070" />
+<bean id="account" class="com.cts.training.model.AccountEntity">
+<property name="id" value="100" />
+<property name="balance" value="76988" /> 
+</bean>
+</bean>
+</bean>
+</beans>
+
+
+<!-- <constructor-arg value="102" name="id" type="int" />
+<constructor-arg value="user" name="username" />
+<constructor-arg value="password" name="password" />
+<constructor-arg value="usere@gmail.com" name="email" />
+<constructor-arg value="7686" name="phone" />
+<constructor-arg value="true" name="isEnabled" /> -->
+
+
+
+
+
+
+
