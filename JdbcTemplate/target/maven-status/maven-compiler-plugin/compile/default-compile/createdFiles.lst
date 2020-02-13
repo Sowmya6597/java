@@ -1,0 +1,5 @@
+com\cts\training\sample\dao\UserDao.class
+com\cts\training\sample\model\User.class
+com\cts\training\sample\daoImpl\UserDaoImpl.class
+com\cts\training\sample\controller\App.class
+com\cts\training\sample\controller\UserController.class
