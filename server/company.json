@@ -1,0 +1,44 @@
+{
+  "company": [
+    {
+      "id": 102,
+      "companyname": "cts",
+      "turnover": 564588888,
+      "ceo": "prudhvi",
+      "bod": "raju",
+      "lse": [
+        "BSE",
+        "NSE"
+      ],
+      "sector": "technology",
+      "boc": "It is very Good",
+      "stock": "cog123"
+    },
+    {
+      "id": 105,
+      "companyname": "Hcl",
+      "turnover": 8456321112121,
+      "ceo": "mahesh",
+      "bod": "anil",
+      "lse": [
+        "BSE"
+      ],
+      "sector": "technology",
+      "boc": "dasbjdhjasdjasdjasfa",
+      "stock": "hcl12"
+    },
+    {
+      "id": 107,
+      "companyname": "sowmya",
+      "turnover": 68787,
+      "ceo": "sowmya",
+      "bod": "sowmya",
+      "lse": [
+        "NSE"
+      ],
+      "sector": "sowmya",
+      "boc": "sowmya is good",
+      "stock": "sowmya"
+    }
+  ]
+}

@@ -1,56 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<title>Landing Page</title>
 </head>
-<body bgcolor="black">
+<body bg="gray">
+<div class="container">
+<h2 class="text-center text-success" >Stock Market Charting</h2>
+</div>
 
-    <HTML>
-
-        <HEAD>
-            
-            <TITLE>STOCK MARKET CHARTING</TITLE>
-           
-        
-        </HEAD>
-        
-        <BODY>
-             
-            <DIV id="mainDivContainer" style="position: relative; width: 100%; margin-top: 0px; margin-bottom: 0px;">
-        
-                <DIV style="width: 960px;  margin-top: 5px; margin-left: auto; margin-right: auto">
-        
-                            <DIV style="width: 960px; height:80px;">
-                                    <IMG id="image1" src="image1.jpg" width="900" height="400">
-                                       
- <DIV id="topnav" style="float:left;width: 840px; height: 20px; word-spacing: 5px; font-size: 90%; padding-left:60px; padding-top: 6px; white-space: nowrap; text-align:left; background-color: yellow;">
-                            <NAV>
-                    
-                     <A href="home.html">Home</A> |
-                     <A href="login.html">LOGIN</A> |
-                     <A href="newuser.html">CREATE ACCOUNT</A> 
-        
-                          </NAV>
-           
-                   </DIV>
-        
-                    </DIV>
-        
-                 </DIV>
-        
-            </DIV>
-        
-         
-        
-        </BODY>
-        
-        </HTML>
-        
-         
-        
-        
+<br>
+<br>
+<div id="topnav" style="float:left;width: 1500px; height: 25px; word-spacing: 5px; font-size: 90%; padding-left:60px; padding-top: 6px; white-space: nowrap; text-align:left; background-color: black;">
+ <nav>
+                            <a routerLink="home">Home</a> |
+                            <a routerLink="login">LOGIN</a> |
+                            <a routerLink="register">SIGN UP</a>|
+                            <a routerLink = "users">USERS LIST</a>|
+                            <a routerLink = "landing">ADMIN LANDING PAGE</a>|
+                            <a routerLink = "userhomepage">USER LANDING PAGE</a>|
+                            
+                        </nav>
+                      
+    </div>
+    <br>
+    <br>
+    <router-outlet></router-outlet>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "id": 2,
+      "name": "sowmya",
+      "email": "sowmya@yahoo.cpom",
+      "password": "sowmya",
+      "cpassword": "sowmya"
+    },
+    {
+      "id": 3,
+      "name": "mahesh",
+      "email": "ma@gmail.com",
+      "password": "mahesh",
+      "cpassword": "mahesh"
+    },
+    {
+      "id": 5,
+      "name": "sowmya",
+      "email": "sony",
+      "password": "sony",
+      "cpassword": "sony"
+    },
+    {
+      "id": "1",
+      "name": "keerthi",
+      "email": "keerthiiiii@gmail.com",
+      "password": "abc",
+      "cpassword": "abc"
+    }
+  ]
+}
