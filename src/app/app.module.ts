@@ -15,12 +15,13 @@ import { UserhomepageComponent } from './user1/userhomepage/userhomepage.compone
 import { ComparecompanyComponent } from './user1/comparecompany/comparecompany.component';
 import { AddcompanyComponent } from './admin/addcompany/addcompany.component';
 import { StockexchangedetailsComponent } from './admin/stockexchangedetails/stockexchangedetails.component';
-import { UpdateipoComponent } from './admin/updateipo/updateipo.component';
 import { UpdatecompanyComponent } from './admin/updatecompany/updatecompany.component';
 import { ComparesectorComponent } from './user1/comparesector/comparesector.component';
-import { IpoComponent } from './user1/ipo/ipo.component';
 import { CompanyComponent } from './admin/company/company.component';
 import { HomeComponent } from './home/home.component';
+import { ManageIpoComponent } from './admin/manage-ipo/manage-ipo.component';
+import { IpoComponent } from './admin/ipo/ipo.component';
+import { UpdateIpoComponent } from './admin/update-ipo/update-ipo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,12 +35,13 @@ import { HomeComponent } from './home/home.component';
     ComparecompanyComponent,
     AddcompanyComponent,
     StockexchangedetailsComponent,
-    UpdateipoComponent,
     UpdatecompanyComponent,
     ComparesectorComponent,
-    IpoComponent,
     CompanyComponent,
     HomeComponent,
+    ManageIpoComponent,
+    IpoComponent,
+    UpdateIpoComponent,
     ],
   imports: [
     BrowserModule,

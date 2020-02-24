@@ -10,12 +10,13 @@ import { UserhomepageComponent } from './user1/userhomepage/userhomepage.compone
 import { ComparecompanyComponent } from './user1/comparecompany/comparecompany.component';
 import { AddcompanyComponent } from './admin/addcompany/addcompany.component';
 import { StockexchangedetailsComponent } from './admin/stockexchangedetails/stockexchangedetails.component';
-import { UpdateipoComponent } from './admin/updateipo/updateipo.component';
 import { UpdatecompanyComponent } from './admin/updatecompany/updatecompany.component';
 import { ComparesectorComponent } from './user1/comparesector/comparesector.component';
-import { IpoComponent } from './user1/ipo/ipo.component';
+import { IpoComponent } from './admin/ipo/ipo.component';
 import { CompanyComponent } from './admin/company/company.component';
 import { HomeComponent } from './home/home.component';
+import { ManageIpoComponent } from './admin/manage-ipo/manage-ipo.component';
+import { UpdateIpoComponent } from './admin/update-ipo/update-ipo.component';
 
 
 const routes: Routes = [
@@ -29,12 +30,14 @@ const routes: Routes = [
    {path:'comparecompany',component:ComparecompanyComponent},
    {path:'addCompany',component:AddcompanyComponent},
    {path:'stockexchangedetails',component:StockexchangedetailsComponent},
-   {path:'updateipo',component:UpdateipoComponent},
    {path:'updatecompany',component:UpdatecompanyComponent},
    {path:'comparesector',component:ComparesectorComponent},
    {path:'ipo',component:IpoComponent},
    {path:'company',component:CompanyComponent},
-   {path:'home',component:HomeComponent}
+   {path:'home',component:HomeComponent},
+   {path:'manageipo',component:ManageIpoComponent},
+   {path:'ipo',component:IpoComponent},
+   {path:'updateipo',component:UpdateIpoComponent}
    
    
   

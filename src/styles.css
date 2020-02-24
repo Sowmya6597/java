@@ -4,6 +4,37 @@ body
 {
   width:100%;
   min-height:100vh;
-  background: url("https://st4.depositphotos.com/9429742/20418/i/1600/depositphotos_204180988-stock-photo-stock-market-chart-on-forex.jpg");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTiaxULH50tyzxpgG-Bikf1uIAfOpM1uz6lX7_W3hOjIFkB_YVz");
   background-size: cover;
+}
+body{        
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.container{
+  width: 80%;
+  margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+  width: 100%;
+  position: fixed;        
+  background:green;
+  padding: 10px 0;
+  color: black;
+}
+.fixed-header{
+  top: 0;
+}
+.fixed-footer{
+  bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+.container p{
+  line-height: 200px; /* Create scrollbar to test positioning */
 }

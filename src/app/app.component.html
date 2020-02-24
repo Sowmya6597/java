@@ -1,38 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body bg="gray">
-<div class="container">
-<h2 class="text-center text-success" >Stock Market Charting</h2>
-</div>
-
-<br>
-<br>
-<div id="topnav" style="float:left;width: 1500px; height: 25px; word-spacing: 5px; font-size: 90%; padding-left:60px; padding-top: 6px; white-space: nowrap; text-align:left; background-color: black;">
- <nav>
-                            <a routerLink="home">Home</a> |
-                            <a routerLink="login">LOGIN</a> |
-                            <a routerLink="register">SIGN UP</a>|
-                            <a routerLink = "users">USERS LIST</a>|
-                            <a routerLink = "landing">ADMIN LANDING PAGE</a>|
-                            <a routerLink = "userhomepage">USER LANDING PAGE</a>|
-                            
-                        </nav>
-                      
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a routerLink="home">HOME</a>
+                <a routerLink="landing">ADMIN</a>
+                <a routerLink="userhomepage">USER</a>
+                <a routerLink="users">USERSLIST</a>
+                <a routerLink="register">SIGN UP</a>
+            </nav>
+        </div>
     </div>
-    <br>
-    <br>
+    
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; All Rights Reserved</div>        
+    </div>
     <router-outlet></router-outlet>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-

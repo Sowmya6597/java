@@ -6,6 +6,11 @@
           <h2>Create a new company</h2>
           <form [formGroup]="companyForm" (ngSubmit)="addCompany()">
             <div class="form-group">
+              <label for="id">ID:</label>
+              <input type="text" class="form-control" id="id" formControlName="id"
+                placeholder="Enter Id" name="id">
+            </div>
+            <div class="form-group">
               <label for="companyname">Company Name:</label>
               <input type="text" class="form-control" id="companyname" formControlName="companyname"
                 placeholder="Enter Company Name" name="companyname">
@@ -43,7 +48,7 @@
                 rows="3" name="boc"></textarea>
             </div>
             <div class="form-group">
-              <label for="stockcode">Stock Code:</label>
+              <label for="stock">Stock Code:</label>
               <input type="text" class="form-control" id="stock" formControlName="stock" placeholder="Enter Stock Code"
                 name="stock">
             </div>

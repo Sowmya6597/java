@@ -1,6 +1,7 @@
 
 <table class="table">
     <tr>
+        <th>ID</th>
         <th>Company name</th>
         <th>Turnover</th>
         <th>CEO</th>
@@ -12,6 +13,7 @@
         <th>Action</th>
     </tr>
     <tr *ngFor="let company of companies">
+        <td>{{company.id}}</td>
         <td>{{company.companyname}}</td>
         <td>{{company.turnover}}</td>
         <td>{{company.ceo}}</td>
