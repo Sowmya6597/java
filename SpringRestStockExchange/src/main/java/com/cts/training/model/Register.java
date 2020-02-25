@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import org.springframework.stereotype.Component;
@@ -22,6 +23,9 @@ public class Register implements Serializable{
 	private String email;
 	private String password;
 	private String confirmpassword;
+	@Transient
+	private String regstatus;
+	private String active="no";
 	public Register() {
 		super();
 	}
@@ -62,6 +66,12 @@ public class Register implements Serializable{
 	}
 	public void setConfirmpassword(String confirmpassword) {
 		this.confirmpassword = confirmpassword;
+	}
+	public String getRegstatus() {
+		return regstatus;
+	}
+	public void setRegstatus(String regstatus) {
+		this.regstatus = regstatus;
 	}
 	@Override
 	public String toString() {
