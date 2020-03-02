@@ -73,6 +73,12 @@ public class Register implements Serializable{
 	public void setRegstatus(String regstatus) {
 		this.regstatus = regstatus;
 	}
+	public String getActive() {
+		return active;
+	}
+	public void setActive(String active) {
+		this.active = active;
+	}
 	@Override
 	public String toString() {
 		return "Register [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password
